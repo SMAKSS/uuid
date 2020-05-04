@@ -1,7 +1,7 @@
 {
-  "name": "uuid",
-  "version": "1.0.0",
-  "description": "Generate random unique string base on RFC 4122 approach.",
+  "name": "@smakss/uuid",
+  "version": "1.0.1",
+  "description": "Generates random unique string based on RFC 4122 approach.",
   "type": "module",
   "main": "./index.cjs",
   "exports": {

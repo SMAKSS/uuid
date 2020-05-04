@@ -29,5 +29,5 @@ import uuid from '@smakss/uuid'
 then to use it within your application you can do it just like this:
 
 ```
-uuidv4() // This will generate a random string like this 289c653f-6c89-416c-8d82-c03f7e47340c
+uuid() // This will generate a random string like this 289c653f-6c89-416c-8d82-c03f7e47340c
 ```
