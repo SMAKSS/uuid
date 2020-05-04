@@ -1,0 +1,35 @@
+{
+  "name": "uuid",
+  "version": "1.0.0",
+  "description": "Generate random unique string base on RFC 4122 approach.",
+  "type": "module",
+  "main": "./index.cjs",
+  "exports": {
+    "import": "./index.mjs",
+    "require": "./index.cjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SMAliKSS/uuid.git"
+  },
+  "keywords": [
+    "ES5",
+    "ES6",
+    "npm",
+    "yarn",
+    "UUID",
+    "unique",
+    "SMAKSS",
+    "random",
+    "RFC-4122",
+    "unique-string",
+    "random-string",
+    "random-unique-string"
+  ],
+  "author": "SMAKSS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SMAliKSS/uuid/issues"
+  },
+  "homepage": "https://github.com/SMAliKSS/uuid#readme"
+}
