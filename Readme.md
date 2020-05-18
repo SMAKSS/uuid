@@ -1,4 +1,4 @@
-# Random array element without repetition
+# UUID
 
 ![npm](https://img.shields.io/npm/v/@smakss/uuid) ![Snyk Vulnerabilities for npm package](https://img.shields.io/snyk/vulnerabilities/npm/@smakss/uuid) ![NPM](https://img.shields.io/npm/l/@smakss/uuid) ![npm](https://img.shields.io/npm/dm/@smakss/uuid) ![npm bundle size (scoped)](https://img.shields.io/bundlephobia/min/@smakss/uuid)
 
