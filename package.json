@@ -1,6 +1,6 @@
 {
   "name": "@smakss/uuid",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Generates random unique string based on RFC 4122 approach.",
   "type": "module",
   "main": "./index.cjs",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SMAliKSS/uuid.git"
+    "url": "git+https://github.com/SMAKSS/uuid.git"
   },
   "keywords": [
     "ES5",
@@ -29,7 +29,7 @@
   "author": "SMAKSS",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SMAliKSS/uuid/issues"
+    "url": "https://github.com/SMAKSS/uuid/issues"
   },
-  "homepage": "https://github.com/SMAliKSS/uuid#readme"
+  "homepage": "https://github.com/SMAKSS/uuid#readme"
 }

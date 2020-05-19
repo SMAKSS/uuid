@@ -20,7 +20,7 @@ to include with `ES5` or common js you can simply do this:
 var uuid = require('@smakss/uuid');
 ```
 
-or to include with `ES6` you simply do this one:
+or to include with `ES6` you can simply do this one:
 
 ```
 import uuid from '@smakss/uuid'
