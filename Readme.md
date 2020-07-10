@@ -14,13 +14,13 @@ or
 yarn add @smakss/uuid
 ```
 
-to include with `ES5` or common js you can simply do this:
+to include it with common js module you should do this:
 
 ```
 var uuid = require('@smakss/uuid');
 ```
 
-or to include with `ES6` you can simply do this one:
+and to include it with ECMAscript module you can simply do this one:
 
 ```
 import uuid from '@smakss/uuid'
