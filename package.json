@@ -1,6 +1,6 @@
 {
   "name": "@smakss/uuid",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Generates random unique string based on RFC 4122 approach.",
   "type": "module",
   "main": "./index.cjs",
@@ -13,8 +13,6 @@
     "url": "git+https://github.com/SMAKSS/uuid.git"
   },
   "keywords": [
-    "ES5",
-    "ES6",
     "npm",
     "yarn",
     "UUID",
@@ -22,6 +20,8 @@
     "SMAKSS",
     "random",
     "RFC-4122",
+    "CommonJS",
+    "EcmaScript",
     "unique-string",
     "random-string",
     "random-unique-string"
