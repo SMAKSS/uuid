@@ -1,6 +1,6 @@
 {
   "name": "@smakss/uuid",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "Generates random unique string based on RFC 4122 approach.",
   "type": "module",
   "main": "./index.cjs",
@@ -31,6 +31,5 @@
   "bugs": {
     "url": "https://github.com/SMAKSS/uuid/issues"
   },
-  "homepage": "https://github.com/SMAKSS/uuid#readme",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+  "homepage": "https://github.com/SMAKSS/uuid#readme"
 }
