@@ -8,7 +8,7 @@ In order to create a unique id, you need to generate a unique string so the best
 
 To install it you can simply do the following command:
 
-```
+```bash
 npm i @smakss/uuid
 or
 yarn add @smakss/uuid
@@ -16,20 +16,22 @@ yarn add @smakss/uuid
 
 to include it with common js module you should do this:
 
-```
+```js
 var uuid = require('@smakss/uuid');
 ```
 
 and to include it with ECMAscript module you can simply do this one:
 
-```
+```js
 import uuid from '@smakss/uuid';
 ```
 
 then to use it within your application you can do it just like this:
 
-```
-uuid(); // This will generate a random string like this 289c653f-6c89-416c-8d82-c03f7e47340c
+```js
+uuid(); 
+
+// Result: '289c653f-6c89-416c-8d82-c03f7e47340c'
 ```
 
 ## Demo
