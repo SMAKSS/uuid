@@ -1,6 +1,6 @@
 {
   "name": "@smakss/uuid",
-  "version": "1.1.18",
+  "version": "1.1.19",
   "description": "Generates random unique UUID string based on RFC 4122 approach.",
   "type": "module",
   "main": "./index.cjs",
