@@ -1,45 +1,49 @@
-# This workflow will run tests using node and then publish a package to GitHub Packages when a release is created
-# For more information see: https://help.github.com/actions/language-and-framework-guides/publishing-nodejs-packages
-
-name: '@smakss/uuid'
+name: "@smakss/uuid"
 
 on:
   release:
     types: [created]
 
 jobs:
+  example_matrix:
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        version: [16]
+    runs-on: ${{ matrix.os }}
+
   build:
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
-          node-version: 12
+          node-version: ${{ matrix.version }}
 
   publish-npm:
     needs: build
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
-          node-version: 12
+          node-version: ${{ matrix.version }}
           registry-url: https://registry.npmjs.org/
-          scope: '@smakss'
+          scope: "@smakss"
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
 
   publish-gpr:
     needs: build
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
-          node-version: 12
+          node-version: ${{ matrix.version }}
           registry-url: https://npm.pkg.github.com/
-          scope: '@smakss'
+          scope: "@smakss"
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
