@@ -31,5 +31,5 @@
     "url": "git+https://github.com/SMAKSS/uuid.git"
   },
   "type": "module",
-  "version": "1.2.5"
+  "version": "1.2.6"
 }
