@@ -6,6 +6,14 @@ In order to create a unique id, you need to generate a unique string so the best
 
 <sub>For the sake of compatibility it do not use [crypto](https://developer.mozilla.org/en-US/docs/Web/API/Window/crypto) anymore since the `v1.1.2`.</sub>
 
+## Demo
+
+You can check the [working demo](https://runkit.com/smakss/uuid) in runkit.
+
+or
+
+[![View @smakss/uuid](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/smakss-uuid-x5cqpb?fontsize=14&hidenavigation=1&theme=dark)
+
 ## How it works?
 
 To install it you can simply do the following command:
@@ -35,11 +43,3 @@ uuid();
 
 // Result: '289c653f-6c89-416c-8d82-c03f7e47340c'
 ```
-
-## Demo
-
-You can check the [working demo](https://runkit.com/smakss/uuid) in runkit.
-
-or
-
-[![View @smakss/uuid](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/smakss-uuid-x5cqpb?fontsize=14&hidenavigation=1&theme=dark)
