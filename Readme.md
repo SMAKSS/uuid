@@ -43,3 +43,11 @@ uuid();
 
 // Result: '289c653f-6c89-416c-8d82-c03f7e47340c'
 ```
+
+## Contributing
+
+Interested in making contributions to this project? Please see [CONTRIBUTING.md](https://github.com/SMAKSS/uuid/blob/master/.github/CONTRIBUTING.md) for guidelines and details.
+
+## Code of Conduct
+
+We value and prioritize the well-being of all our contributors and users. To ensure that this project remains a welcoming space for everyone, please refer to our [Code of Conduct](https://github.com/SMAKSS/uuid/blob/master/.github/CODE_OF_CONDUCT.md).
