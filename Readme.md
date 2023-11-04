@@ -1,14 +1,14 @@
 # UUID
 
-![npm](https://img.shields.io/npm/v/@smakss/uuid) ![Snyk Vulnerabilities for npm package](https://img.shields.io/snyk/vulnerabilities/npm/@smakss/uuid) ![NPM](https://img.shields.io/npm/l/@smakss/uuid) ![npm](https://img.shields.io/npm/dt/@smakss/uuid) ![npm bundle size (scoped)](https://img.shields.io/bundlephobia/min/@smakss/uuid)
+![npm](https://img.shields.io/npm/v/@smakss/uuid) ![NPM](https://img.shields.io/npm/l/@smakss/uuid) ![npm](https://img.shields.io/npm/dt/@smakss/uuid) ![npm bundle size (scoped)](https://img.shields.io/bundlephobia/min/@smakss/uuid)
 
-In order to create a unique id, you need to generate a unique string so the best way for it as [RFC 4122](https://www.ietf.org/rfc/rfc4122.txt) said is to use UUID. This package will generate a unique id according to RFC 4122 schema in pure js. The main source of this project is based on the StackOverflow community wiki.
+In order to create a unique identifier, it's common to use a UUID (Universally Unique Identifier). This package generates a version 4 UUID compliant with [RFC 4122](https://www.ietf.org/rfc/rfc4122.txt) standards using pure JavaScript. The codebase for this project is inspired by the collective wisdom of the StackOverflow community.
 
-<sub>For the sake of compatibility it do not use [crypto](https://developer.mozilla.org/en-US/docs/Web/API/Window/crypto) anymore since the `v1.1.2`.</sub>
+<sub>Since version `v1.1.2`, the package does not utilize the [crypto](https://developer.mozilla.org/en-US/docs/Web/API/Window/crypto) API to maximize compatibility across different environments.</sub>
 
 ## Demo
 
-You can check the [working demo](https://runkit.com/smakss/uuid) in runkit.
+You can check the [working demo](https://runkit.com/smakss/uuid) on RunKit.
 
 or
 
@@ -16,38 +16,40 @@ or
 
 ## How it works?
 
-To install it you can simply do the following command:
+To install the package, run the following command:
 
 ```bash
 npm i @smakss/uuid
-or
+# or
 yarn add @smakss/uuid
 ```
 
-to include it with common js module you should do this:
+For CommonJS modules, include it like this:
 
-```js
-var uuid = require("@smakss/uuid");
+```javascript
+const uuid = require('@smakss/uuid');
 ```
 
-and to include it with ECMAscript module you can simply do this one:
+For ECMAScript modules, import it as follows:
 
-```js
-import uuid from "@smakss/uuid";
+```javascript
+import uuid from '@smakss/uuid';
 ```
 
-then to use it within your application you can do it just like this:
+Then, you can use it within your application like this:
 
-```js
-uuid();
-
-// Result: '289c653f-6c89-416c-8d82-c03f7e47340c'
+```javascript
+// Generate a new UUID
+const uniqueID = uuid();
+console.log(uniqueID); // Outputs: '123e4567-e89b-12d3-a456-426614174000' (example output)
 ```
+
+<sub>**NOTE:** Each call to `uuid()` generates a unique UUID, so the output will vary with each call.</sub>
 
 ## Contributing
 
-Interested in making contributions to this project? Please see [CONTRIBUTING.md](https://github.com/SMAKSS/uuid/blob/master/.github/CONTRIBUTING.md) for guidelines and details.
+Interested in contributing to this project? Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines and details.
 
 ## Code of Conduct
 
-We value and prioritize the well-being of all our contributors and users. To ensure that this project remains a welcoming space for everyone, please refer to our [Code of Conduct](https://github.com/SMAKSS/uuid/blob/master/.github/CODE_OF_CONDUCT.md).
+To ensure a welcoming and positive experience for all contributors and users, we adhere to a [Code of Conduct](./CODE_OF_CONDUCT.md). Your cooperation is appreciated.
