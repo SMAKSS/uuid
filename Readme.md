@@ -16,18 +16,18 @@ Check out the working demo on CodeSandbox:
 
 ## How it works?
 
-To install the package, run the following command:
+Install the package using npm or pnpm:
 
 ```bash
-npm i @smakss/uuid
+npm install @smakss/uuid
 # or
-yarn add @smakss/uuid
+pnpm add @smakss/uuid
 ```
 
 For CommonJS modules, include it like this:
 
 ```javascript
-const uuid = require('@smakss/uuid');
+const { default: uuid } = require('@smakss/uuid');
 ```
 
 For ECMAScript modules, import it as follows:
@@ -53,3 +53,18 @@ Interested in contributing to this project? Please see [CONTRIBUTING.md](./CONTR
 ## Code of Conduct
 
 To ensure a welcoming and positive experience for all contributors and users, we adhere to a [Code of Conduct](./CODE_OF_CONDUCT.md). Your cooperation is appreciated.
+
+## Local playground
+
+This repository includes a Vite playground linked to the package through the pnpm workspace. Try the current local build without publishing a package version:
+
+```sh
+pnpm install
+pnpm run dev:playground
+```
+
+To build the playground app, run this from the package root:
+
+~~~sh
+pnpm run build:playground
+~~~
