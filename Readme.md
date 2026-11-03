@@ -1,6 +1,6 @@
 # UUID
 
-![npm](https://img.shields.io/npm/v/@smakss/uuid) ![NPM](https://img.shields.io/npm/l/@smakss/uuid) ![npm](https://img.shields.io/npm/dt/@smakss/uuid) ![npm bundle size (scoped)](https://img.shields.io/bundlephobia/min/@smakss/uuid)
+![npm](https://img.shields.io/npm/v/@smakss/uuid) ![NPM](https://img.shields.io/npm/l/@smakss/uuid) ![npm](https://img.shields.io/npm/dt/@smakss/uuid) ![npm unpacked size](https://img.shields.io/npm/unpacked-size/%40smakss%2Fuuid)
 
 In order to create a unique identifier, it's common to use a UUID (Universally Unique Identifier). This package generates a version 4 UUID compliant with [RFC 4122](https://www.ietf.org/rfc/rfc4122.txt) standards using pure JavaScript. The codebase for this project is inspired by the collective wisdom of the StackOverflow community.
 
